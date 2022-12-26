@@ -27,6 +27,16 @@ public class Square {
         return distance;
     }
 
+    static int getRandomNumber(int min, int max){
 
-}
+       int n = (int) (Math.random() * (max - min)) + min;
+
+       return n;
+    }
+    static void getRandomNumber (String[] args){
+
+        System.out.println(getRandomNumber(-98,98));
+    }
+    }
+
 
